@@ -1,0 +1,139 @@
+.title-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-app .buttons .logout-btn {
+    margin-left: 5px;
+}
+
+.container .cards-container {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 10px 30px 10px;
+}
+
+.container .cards-container .title {
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container .cards-container .cards-list {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.container .cards-container .card {
+    background-color: #ebf4f7;
+    margin-bottom: 10px;
+}
+
+.container .cards-container .cards-list .card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.container .cards-container .cards-list .card .card-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container .cards-container .cards-list .card .card-title .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .cards-container .cards-list .card .card-title .rate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 35%;
+    padding: 5px 10px 5px 10px;
+}
+
+.container .cards-container .cards-list .card .card-title .rate .number {
+    margin-right: 5px;
+}
+
+.container .cards-container .cards-list .card .card-title .rate .star {
+    color: #f0c419;
+}
+
+.container .single-card {
+    background-color: #fff;
+    width: 100%;
+    padding: 0 0 50px 0;
+}
+
+.container .single-card .image-container {
+    width: 100%;
+}
+
+.container .single-card .image-container img {
+    width: 100%;
+    padding: 50px;
+}
+
+.container .single-card .post-title-rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+
+.container .single-card .post-title-rate .name {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.container .single-card .post-title-rate .rate {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .single-card .post-title-rate .rate .star {
+    padding: 20px;
+    font-size: 32px;
+    color: #f0c419;
+}
+
+.container .single-card .description-post {
+    padding: 0 50px 0 50px;
+}
+
+.container .single-card .comment-container {
+    padding: 0 50px 0 50px;
+    margin-top: 30px;
+}
+
+.container .single-card .comment-container .text-area-post-comment {
+    height: 140px;
+}
+
+.container .single-card .submit-button-container {
+    margin-top: 10px;
+    padding: 0 50px 0 50px;
+    padding-bottom: 30px;
+}
+
+.container .single-card .submit-button-container button {
+    width: 100%;
+    background-color: #265183;
+}
+
+.container .single-card .comments {
+    padding: 0 50px 0 50px;
+}
+
+.container .single-card .comments img {
+    margin-right: 5px;
+}
